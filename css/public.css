@@ -116,9 +116,10 @@ div.min_search_div div:nth-child(2) a{
     width: 140px;
 }
 /* 页脚 */
-#footer{
+.footer{
     margin: 0px;
     border-top: #e7e7e7 solid 1px;
+    width: 100%;
 }
 #footer_top{
     margin: 24px 0px;
@@ -129,21 +130,57 @@ div.min_search_div div:nth-child(2) a{
     padding-top: 30px;
     margin: 0px 20px;
 }
-div.footer{
+#footer_mid{
+    margin-left: 42px;
+}
+div.footer_mid{
     width: 20%;
     float: left;
     padding-left: 15px;
 }
-#footer_a span{
+#footer_mid span{
     font-weight: bold;
     font-size: 16px;
     color: #646464;
 }
-#footer_a a{
+#footer_mid a{
     display: block;
     padding-top: 3px;
 }
-#footer_a img{
+#footer_mid img{
     display: block;
     padding-top: 3px;
+}
+#footer_bottom{
+    float: left;
+}
+#footer_bottom div:first-child img{
+    margin-left: 20px;
+}
+.footer_bottom{
+    background-color: black;
+    border-top: #C40000 solid 2px;
+}
+.foot_bottom_a{
+    padding: 10px 0px 10px 10px;
+}
+.foot_bottom_a a{
+    color: white;
+    padding: 0px 5px;
+}
+.foot_bottom_a span{
+    color: white;
+}
+#licence{
+    padding-bottom: 30px;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+#licence span{
+    color: #a4a4a4;
+    padding-right: 10px;
+}
+#licence div{
+    margin: 10px 0px;
+    color: #686868;
 }

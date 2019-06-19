@@ -75,6 +75,7 @@ div.search_below a{
 /* 简单搜索框 */
 div.min_search_div{
     float: right;
+    clear: both;
     background-color: #C40000;
     width: 300px;
     height: 40px;
@@ -113,4 +114,36 @@ div.min_search_div div:nth-child(2) a{
     top: 50px;
     left: 10px;
     width: 140px;
+}
+/* 页脚 */
+#footer{
+    margin: 0px;
+    border-top: #e7e7e7 solid 1px;
+}
+#footer_top{
+    margin: 24px 0px;
+    text-align: center;
+}
+#footer_a{
+    border-top: #e7e7e7 solid 1px;
+    padding-top: 30px;
+    margin: 0px 20px;
+}
+div.footer{
+    width: 20%;
+    float: left;
+    padding-left: 15px;
+}
+#footer_a span{
+    font-weight: bold;
+    font-size: 16px;
+    color: #646464;
+}
+#footer_a a{
+    display: block;
+    padding-top: 3px;
+}
+#footer_a img{
+    display: block;
+    padding-top: 3px;
 }

@@ -14,7 +14,7 @@ a:hover{
     color: #C40000 !important;
 }
 /* 导航条 */
-div#top{
+nav#top{
     background-color: #f2f2f2;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -75,7 +75,6 @@ div.search_below a{
 /* 简单搜索框 */
 div.min_search_div{
     float: right;
-    clear: both;
     background-color: #C40000;
     width: 300px;
     height: 40px;
@@ -115,6 +114,9 @@ div.min_search_div div:nth-child(2) a{
     left: 10px;
     width: 140px;
 }
+div.clear{
+    clear: both;
+}
 /* 页脚 */
 .footer{
     margin: 0px;
@@ -125,18 +127,18 @@ div.min_search_div div:nth-child(2) a{
     margin: 24px 0px;
     text-align: center;
 }
-#footer_a{
+#footer_top img{
+    padding: 0px 50px;
+}
+#footer_mid{
     border-top: #e7e7e7 solid 1px;
     padding-top: 30px;
     margin: 0px 20px;
 }
-#footer_mid{
-    margin-left: 42px;
-}
-div.footer_mid{
+.footer_mid{
     width: 20%;
     float: left;
-    padding-left: 15px;
+    padding-left: 100px;
 }
 #footer_mid span{
     font-weight: bold;

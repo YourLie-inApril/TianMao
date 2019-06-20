@@ -1,0 +1,35 @@
+nav {
+  background: #dd2727;
+}
+nav #shopping {
+  display: inline-block;
+  width: 200px;
+  height: 36px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  line-height: 36px;
+  background: #c60a0a;
+}
+nav #menu {
+  display: inline-block;
+}
+nav #menu a {
+  margin: 0px 20px;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+nav #menu img {
+  height: 30px;
+}
+#picture {
+  padding: 0px 220px;
+  height: 510px;
+  background: #e8e8e8;
+}
+#picture .carousel-item img {
+  width: 1024px;
+  height: 510px;
+}

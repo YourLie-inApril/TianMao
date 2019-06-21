@@ -18,21 +18,33 @@ a:hover {
 }
 
 /* 导航条 */
-nav#top {
+#top {
     background-color: #f2f2f2;
     padding-top: 5px;
     padding-bottom: 5px;
     border-bottom: 1px solid #e7e7e7;
 }
 
-#top span,
-#top a {
+#center_top {
+    width: 1024px;
+    height: 17px;
+    margin: 0 200px;
+}
+
+#top span {
     color: #999999;
+}
+
+#top a {
     margin: 0px 10px;
 }
 
 .pull_right {
     float: right;
+}
+
+.text {
+    margin-right: 10px;
 }
 
 /* 搜索栏 */
@@ -42,8 +54,8 @@ nav#top {
 
 img#logo {
     position: absolute;
-    left: 0px;
-    top: 30px;
+    left: 150px;
+    top: 0px;
     z-index: -1;
 }
 

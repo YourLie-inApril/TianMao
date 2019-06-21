@@ -1,40 +1,53 @@
 /* 全局 */
-body{
+body {
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
 }
-a{
+
+a {
     color: #999999;
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
     color: #C40000;
 }
-.redColor{
+
+.redColor {
     color: #C40000 !important;
 }
+
 /* 导航条 */
-nav#top{
+nav#top {
     background-color: #f2f2f2;
     padding-top: 5px;
     padding-bottom: 5px;
     border-bottom: 1px solid #e7e7e7;
 }
-#top span,#top a{
+
+#top span,
+#top a {
     color: #999999;
     margin: 0px 10px;
 }
+
+.pull_right {
+    float: right;
+}
+
 /* 搜索栏 */
-#search{
+#search {
     height: 50px;
 }
-img#logo{
+
+img#logo {
     position: absolute;
     left: 0px;
     top: 30px;
     z-index: -1;
 }
-div.search_div{
+
+div.search_div {
     background-color: #C40000;
     margin: 50px auto;
     width: 400px;
@@ -42,7 +55,8 @@ div.search_div{
     padding: 1px;
     display: block;
 }
-div.search_div input{
+
+div.search_div input {
     width: 275px;
     height: 36px;
     margin: 1px;
@@ -51,7 +65,8 @@ div.search_div input{
     line-height: 36px;
     vertical-align: top;
 }
-div.search_div button{
+
+div.search_div button {
     width: 110px;
     background-color: #C40000;
     color: white;
@@ -61,19 +76,23 @@ div.search_div button{
     height: 36px;
     margin: 1px;
 }
-div.search_below{
+
+div.search_below {
     margin-top: 3px;
     margin-left: -20px;
 }
-div.search_below span{
+
+div.search_below span {
     color: #999999;
 }
-div.search_below a{
+
+div.search_below a {
     margin: 0px 20px;
     font-size: 14px;
 }
+
 /* 简单搜索框 */
-div.min_search_div{
+div.min_search_div {
     float: right;
     background-color: #C40000;
     width: 300px;
@@ -82,14 +101,16 @@ div.min_search_div{
     margin: 10px 20px 40px 20px;
     /* display: block; */
 }
-div.min_search_div div:first-child input{
+
+div.min_search_div div:first-child input {
     width: 225px;
     height: 34px;
     margin: 2px;
     border: 1px solid transparent;
     outline: none;
 }
-div.min_search_div div:first-child button{
+
+div.min_search_div div:first-child button {
     width: 60px;
     /* height: 34px;
     margin: 2px; */
@@ -98,91 +119,113 @@ div.min_search_div div:first-child button{
     font-size: 14px;
     border: 1px solid transparent;
 }
-div.min_search_div div:nth-child(2){
+
+div.min_search_div div:nth-child(2) {
     margin: 3px -20px;
 }
-div.min_search_div div:nth-child(2) span{
+
+div.min_search_div div:nth-child(2) span {
     color: #999999;
 }
-div.min_search_div div:nth-child(2) a{
+
+div.min_search_div div:nth-child(2) a {
     margin: 20px;
     font-size: 14px;
 }
-#min_logo{
+
+#min_logo {
     position: absolute;
     top: 50px;
     left: 10px;
     width: 140px;
 }
-div.clear{
+
+div.clear {
     clear: both;
 }
+
 /* 页脚 */
-.footer{
+.footer {
     margin: 0px;
     border-top: #e7e7e7 solid 1px;
     width: 100%;
 }
-#footer_top{
+
+#footer_top {
     margin: 24px 0px;
     text-align: center;
 }
-#footer_top img{
+
+#footer_top img {
     padding: 0px 50px;
 }
-#footer_mid{
+
+#footer_mid {
     border-top: #e7e7e7 solid 1px;
     padding-top: 30px;
     margin: 0px 20px;
 }
-.footer_mid{
+
+.footer_mid {
     width: 20%;
     float: left;
     padding-left: 100px;
 }
-#footer_mid span{
+
+#footer_mid span {
     font-weight: bold;
     font-size: 16px;
     color: #646464;
 }
-#footer_mid a{
+
+#footer_mid a {
     display: block;
     padding-top: 3px;
 }
-#footer_mid img{
+
+#footer_mid img {
     display: block;
     padding-top: 3px;
 }
-#footer_bottom{
+
+#footer_bottom {
     float: left;
 }
-#footer_bottom div:first-child img{
+
+#footer_bottom div:first-child img {
     margin-left: 20px;
 }
-.footer_bottom{
+
+.footer_bottom {
     background-color: black;
     border-top: #C40000 solid 2px;
 }
-.foot_bottom_a{
+
+.foot_bottom_a {
     padding: 10px 0px 10px 10px;
 }
-.foot_bottom_a a{
+
+.foot_bottom_a a {
     color: white;
     padding: 0px 5px;
 }
-.foot_bottom_a span{
+
+.foot_bottom_a span {
     color: white;
 }
-#licence{
+
+#licence {
     padding-bottom: 30px;
     padding-left: 10px;
     margin-left: 5px;
 }
-#licence span{
+
+#licence span {
     color: #a4a4a4;
     padding-right: 10px;
 }
-#licence div{
+
+#licence div {
     margin: 10px 0px;
     color: #686868;
 }

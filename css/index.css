@@ -33,3 +33,62 @@ nav #menu img {
   width: 1024px;
   height: 510px;
 }
+.position {
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+#category {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-left: 20px;
+  width: 200px;
+  background: #e2e2e3;
+  z-index: 1;
+}
+#category .each_category {
+  padding-left: 10px;
+  line-height: 30px;
+  font-size: 14px;
+}
+#category .each_category span {
+  margin-right: 10px;
+}
+#category .each_category a {
+  color: #000;
+}
+#category .each_category a:hover {
+  color: lightskyblue;
+  text-decoration: none;
+}
+#category .each_category:hover {
+  background: white;
+}
+#product_list {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 800px;
+  height: 510px;
+  margin-left: 220px;
+  background: white;
+  z-index: 1;
+}
+#product_list .row {
+  margin: 0px 80px;
+  padding: 10px 0px;
+  border-bottom: dashed 1px #e7e7e7;
+}
+#product_list .row .highlight {
+  color: lightskyblue;
+}
+#product_list .row a {
+  margin: 8px;
+  color: #999;
+  font-size: 14px;
+}
+#product_list .row a:hover {
+  color: #c40000;
+  text-decoration: none;
+}

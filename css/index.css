@@ -40,6 +40,12 @@ nav #menu a img {
   height: 510px;
   background: #e8e8e8;
 }
+#picture .carousel-indicators {
+  position: absolute;
+  left: 300px;
+  top: 463px;
+  width: 615px;
+}
 #picture .carousel-inner {
   padding-left: 100px;
 }

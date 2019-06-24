@@ -25,15 +25,22 @@ nav {
     #menu {
         display: inline-block;
 
+        #cat_ear {
+            position: absolute;
+            display: none;
+            height: 15px;
+        }
+
         a {
             margin: 0px 20px;
             font-size: 16px;
             color: white;
             text-decoration: none;
-        }
 
-        img {
-            height: 30px;
+
+            img {
+                height: 30px;
+            }
         }
     }
 }
@@ -95,8 +102,9 @@ nav {
 }
 
 // 产品列表
-#product_list {
+.product_list {
     position: absolute;
+    display: none;
     left: 0px;
     top: 0px;
     width: 824px;

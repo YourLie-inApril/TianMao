@@ -21,13 +21,18 @@ nav #shopping {
 nav #menu {
   display: inline-block;
 }
+nav #menu #cat_ear {
+  position: absolute;
+  display: none;
+  height: 15px;
+}
 nav #menu a {
   margin: 0px 20px;
   font-size: 16px;
   color: white;
   text-decoration: none;
 }
-nav #menu img {
+nav #menu a img {
   height: 30px;
 }
 #picture {
@@ -74,8 +79,9 @@ nav #menu img {
 #category .each_category:hover {
   background: white;
 }
-#product_list {
+.product_list {
   position: absolute;
+  display: none;
   left: 0px;
   top: 0px;
   width: 824px;
@@ -84,20 +90,20 @@ nav #menu img {
   background: white;
   z-index: 1;
 }
-#product_list .row {
+.product_list .row {
   margin: 0px 80px;
   padding: 10px 0px;
   border-bottom: dashed 1px #e7e7e7;
 }
-#product_list .row .highlight {
+.product_list .row .highlight {
   color: lightskyblue;
 }
-#product_list .row a {
+.product_list .row a {
   margin: 8px;
   color: #999;
   font-size: 14px;
 }
-#product_list .row a:hover {
+.product_list .row a:hover {
   color: #c40000;
   text-decoration: none;
 }

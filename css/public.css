@@ -39,12 +39,18 @@ a:hover {
     margin: 0px 10px;
 }
 
-.pull_right {
+#top .pull_right {
     float: right;
 }
 
-.text {
+#top .text,
+#top .static {
     margin-right: 10px;
+}
+
+#top .text:hover {
+    text-decoration: none;
+    color: #C40000;
 }
 
 /* 搜索栏 */
@@ -206,11 +212,13 @@ div.clear {
 
 #footer_bottom div:first-child img {
     margin-left: 20px;
+    padding: 0px 100px;
 }
 
 .footer_bottom {
     background-color: black;
     border-top: #C40000 solid 2px;
+    padding: 0px 100px;
 }
 
 .foot_bottom_a {
@@ -227,7 +235,7 @@ div.clear {
 }
 
 #licence {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     padding-left: 10px;
     margin-left: 5px;
 }

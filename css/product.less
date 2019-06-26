@@ -1,0 +1,348 @@
+// 全局
+body {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a:hover {
+    text-decoration: none;
+    color: #c40000;
+}
+
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+// banner
+.banner {
+    margin: 0px 200px;
+}
+
+// 展示图
+#pic_information {
+    margin: 40px 20px;
+
+    #dress {
+        float: left;
+        margin-left: 200px;
+
+        #big_img {
+            img {
+                width: 400px;
+                height: 400px;
+                padding: 20px;
+                border: 1px solid #f2f2f2;
+            }
+        }
+
+        #min_img {
+            width: 80%;
+            margin: 0px auto;
+
+            img {
+                width: 60px;
+                height: 60px;
+                border: 2px solid white;
+
+                &:hover {
+                    border: 2px solid black;
+                }
+            }
+        }
+    }
+}
+
+// 基本信息
+#information {
+    margin-right: 200px;
+    padding: 0px 20px;
+    overflow: hidden;
+
+    #title {
+        margin: 0px 10px;
+        font-size: 16px;
+        font-weight: bold;
+        color: black;
+    }
+
+    #subhead {
+        margin: 10px;
+        font-size: 12px;
+        color: #dd2727;
+    }
+
+    #juhuasuan {
+        margin-top: 10px;
+        text-align: center;
+        line-height: 40px;
+        color: white;
+        background-color: #2da77a;
+
+        .juhuasuan {
+            font-size: 18px;
+            font-family: 黑体;
+            font-weight: bold;
+        }
+
+        .count_down {
+            font-weight: bold;
+            color: #ffc057;
+        }
+    }
+
+    #price {
+        height: 102px;
+        padding: 10px;
+        color: #666666;
+        background-image: url(/img/site/priceBackground.png);
+
+        #ticket {
+            margin-top: 5px;
+
+            img {
+                width: 58px;
+                height: 16px;
+            }
+        }
+
+        #original_cost {
+            margin-top: 5px;
+
+            span:first-child {
+                display: inline-block;
+                width: 68px;
+                color: #999999;
+            }
+
+            span:last-child {
+                color: #333333;
+                text-decoration: line-through;
+            }
+        }
+
+        #promotion_cost {
+            margin-top: 5px;
+
+            span:first-child {
+                position: relative;
+                left: 0;
+                top: -10px;
+                display: inline-block;
+                width: 68px;
+                color: #999999;
+            }
+
+            .rmb {
+                font-size: 18px;
+                color: #c40000;
+            }
+
+            span:last-child {
+                font-size: 30px;
+                font-weight: bold;
+                color: #c40000;
+            }
+        }
+    }
+
+    #sal_eva {
+        margin: 20px 0px;
+        padding: 10px;
+        border-top: 1px dotted #c9c9c9;
+        border-bottom: 1px dotted #c9c9c9;
+
+        #sales,
+        #evaluate {
+            display: inline-block;
+            width: 49%;
+            text-align: center;
+            color: #999999;
+
+            span:last-child {
+                color: #c40000;
+                font-weight: bold;
+            }
+        }
+
+        #sales {
+            border-right: 1px solid #e5dfda;
+        }
+    }
+
+    #buy_number {
+        color: #999999;
+
+        #number input {
+            width: 43px;
+            height: 32px;
+        }
+
+        #adjust {
+            display: inline-block;
+            width: 22px;
+            height: 32px;
+            vertical-align: top;
+
+            .arrows {
+                display: block;
+                width: 20px;
+                height: 14px;
+                border: 1px solid #999;
+                padding-top: 4px;
+                text-align: center;
+
+                img {
+                    display: inline-block;
+                    vertical-align: top;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            .mid {
+                display: block;
+                height: 4px;
+            }
+        }
+    }
+
+    #promise {
+        margin: 20px 0px;
+
+        span {
+            color: #999999;
+        }
+
+        a {
+            color: #666666;
+            text-decoration: none;
+        }
+    }
+
+    #buy_cart {
+        margin: 20px 0px;
+        text-align: center;
+
+        button {
+            display: inline-block;
+            margin: 0 10px;
+            width: 180px;
+            height: 40px;
+        }
+
+        #buy {
+            border: 1px solid #c40000;
+            font-size: 16px;
+            color: #c40000;
+            text-align: center;
+            line-height: 40px;
+            background-color: #ffeded;
+        }
+
+        #shopping_cart {
+            border: 1px solid #c40000;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            line-height: 40px;
+            background-color: #c40000;
+
+            .glyphicon {
+                font-size: 12px;
+                margin-right: 8px;
+            }
+        }
+    }
+}
+
+// 详情页
+#pro_details {
+    width: 790px;
+    margin: 40px auto;
+
+    #pro_head {
+        border: 1px solid #dedfdf;
+        border-left-width: 0;
+
+        a:hover {
+            text-decoration: none;
+            color: #c40000;
+        }
+
+        .select {
+            position: relative;
+            display: inline-block;
+            width: 90px;
+            border-left: 1px solid #cfbfb1;
+            border-right: 1px solid#cfbfb1;
+            font-weight: bold;
+            color: #b10000;
+            text-align: center;
+            line-height: 46px;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: -1px;
+                left: -1px;
+                display: block;
+                width: 90px;
+                height: 0;
+                border: 1px solid #b00000;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                top: -1px;
+                left: 50%;
+                width: 0;
+                height: 0;
+                margin-left: -5px;
+                border: 5px solid;
+                border-color: #b00000 transparent transparent;
+            }
+        }
+
+        .total_eva {
+            padding: 0px 20px;
+            border-right: 1px dotted #d2d2d2;
+            color: #333;
+
+            .num {
+                color: #3355b9;
+            }
+        }
+    }
+
+    #pro_para {
+        padding: 40px;
+        border: 1px solid #dfdfdf;
+
+        #parameters {
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #999999;
+        }
+
+        .details {
+            display: block;
+            float: left;
+            width: 220px;
+            padding: 8px 0px;
+            color: #666666;
+        }
+    }
+
+    #pro_img {
+        img {
+            display: block;
+            width: 790px;
+            margin: 20px 0px;
+        }
+    }
+}

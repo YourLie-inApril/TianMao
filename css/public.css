@@ -110,6 +110,9 @@ div.search_below a {
 }
 
 /* 简单搜索框 */
+#min_search {
+    margin: 0px 200px;
+}
 div.min_search_div {
     float: right;
     background-color: #C40000;
@@ -154,7 +157,7 @@ div.min_search_div div:nth-child(2) a {
 #min_logo {
     position: absolute;
     top: 50px;
-    left: 10px;
+    left: 210px;
     width: 140px;
 }
 

@@ -15,62 +15,283 @@
 <body>
     <iframe src="./public/nav.html" frameborder="0" width="100%" height="28px"></iframe>
     <iframe src="./public/search.html" frameborder="0" width="100%"></iframe>
-    <div id="bull">
+    <div id="category">
         <img src="../img/site/bull.jpg" alt="美洲野牛旗舰店">
+        <!-- 排序 -->
+        <div id="price_order">
+            <table id="order">
+                <tbody>
+                    <tr>
+                        <td class="default">
+                            <a href="#">
+                                综合
+                                <span class="glyphicon glyphicon-arrow-down"></span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#">
+                                人气
+                                <span class="glyphicon glyphicon-arrow-down"></span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#">
+                                新品
+                                <span class="glyphicon glyphicon-arrow-down"></span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#">
+                                销量
+                                <span class="glyphicon glyphicon-arrow-down"></span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#">
+                                价格
+                                <span class="glyphicon glyphicon-resize-vertical"></span>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- 价格 -->
+            <table id="price">
+                <tbody>
+                    <tr>
+                        <td>
+                            <input id="begin_price" type="text" placeholder="请输入">
+                        </td>
+                        <td>-</td>
+                        <td>
+                            <input id="end_price" type="text" placeholder="请输入">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- 产品列表 -->
+        <div id="product_list" class="clear">
+            <div class="product" price="497.40">
+                <div class="picture">
+                    <img src="http://tmall.how2j.cn/productSingle_middle/6618.jpg" alt="阿玛尼">
+                </div>
+                <div class="rmb">
+                    ￥497.40
+                </div>
+                <div class="product_a">
+                    <a href="#">
+                        卓梵 阿玛尼正品男士手包男包 软皮手拿包手抓包真皮牛皮大容量
+                    </a>
+                </div>
+                <div class="tmall_a">
+                    <a href="#">
+                        天猫专卖
+                    </a>
+                </div>
+                <div class="evaluate">
+                    <span class="display">
+                        月成交<span class="highlight1">30笔</span>
+                    </span>
+                    <span class="display">
+                        评价<span class="highlight2">21</span>
+                    </span>
+                    <img src="../img/site/wangwang.png" alt="旺旺">
+                </div>
+            </div>
+            <div class="product" price="349.30">
+                <div class="picture">
+                    <img src="http://tmall.how2j.cn/productSingle_middle/6585.jpg" alt="啄木鸟">
+                </div>
+                <div class="rmb">
+                    ￥349.30
+                </div>
+                <div class="product_a">
+                    <a href="#">
+                        啄木鸟男士手包真皮品牌男包手拿包 头层牛皮正品软皮钱包手抓包
+                    </a>
+                </div>
+                <div class="tmall_a">
+                    <a href="#">
+                        天猫专卖
+                    </a>
+                </div>
+                <div class="evaluate">
+                    <span class="display">
+                        月成交<span class="highlight1">28笔</span>
+                    </span>
+                    <span class="display">
+                        评价<span class="highlight2">20</span>
+                    </span>
+                    <img src="../img/site/wangwang.png" alt="旺旺">
+                </div>
+            </div>
+            <div class="product" price="447">
+                <div class="picture">
+                    <img src="http://tmall.how2j.cn/productSingle_middle/6607.jpg" alt="美洲野牛">
+                </div>
+                <div class="rmb">
+                    ￥447.00
+                </div>
+                <div class="product_a">
+                    <a href="#">
+                        美洲野牛男士手包真皮商务大容量手拿包软皮手抓包韩版手机包潮
+                    </a>
+                </div>
+                <div class="tmall_a">
+                    <a href="#">
+                        天猫专卖
+                    </a>
+                </div>
+                <div class="evaluate">
+                    <span class="display">
+                        月成交<span class="highlight1">41笔</span>
+                    </span>
+                    <span class="display">
+                        评价<span class="highlight2">21</span>
+                    </span>
+                    <img src="../img/site/wangwang.png" alt="旺旺">
+                </div>
+            </div>
+            <div class="product" price="474.4">
+                <div class="picture">
+                    <img src="http://tmall.how2j.cn/productSingle_middle/6849.jpg" alt="七匹狼">
+                </div>
+                <div class="rmb">
+                    ￥474.40
+                </div>
+                <div class="product_a">
+                    <a href="#">
+                        七匹狼牛皮手包男双拉链多卡位大容量手拿包男商务休闲真皮手机包
+                    </a>
+                </div>
+                <div class="tmall_a">
+                    <a href="#">
+                        天猫专卖
+                    </a>
+                </div>
+                <div class="evaluate">
+                    <span class="display">
+                        月成交<span class="highlight1">109笔</span>
+                    </span>
+                    <span class="display">
+                        评价<span class="highlight2">21</span>
+                    </span>
+                    <img src="../img/site/wangwang.png" alt="旺旺">
+                </div>
+            </div>
+            <div class="product" price="199.2">
+                <div class="picture">
+                    <img src="http://tmall.how2j.cn/productSingle_middle/6497.jpg" alt="浩顿">
+                </div>
+                <div class="rmb">
+                    ￥199.20
+                </div>
+                <div class="product_a">
+                    <a href="#">
+                        皓顿男士手包真皮大容量品牌男包手拿包头层牛皮手抓皮包男信封包
+                    </a>
+                </div>
+                <div class="tmall_a">
+                    <a href="#">
+                        天猫专卖
+                    </a>
+                </div>
+                <div class="evaluate">
+                    <span class="display">
+                        月成交<span class="highlight1">130笔</span>
+                    </span>
+                    <span class="display">
+                        评价<span class="highlight2">41</span>
+                    </span>
+                    <img src="../img/site/wangwang.png" alt="旺旺">
+                </div>
+            </div>
+            <div class="product" price="233.4">
+                <div class="picture">
+                    <img src="http://tmall.how2j.cn/productSingle_middle/6992.jpg" alt="商务">
+                </div>
+                <div class="rmb">
+                    ￥233.40
+                </div>
+                <div class="product_a">
+                    <a href="#">
+                        编织手包手拿包男信封大容量手抓包真皮韩版潮商务休闲牛皮男包
+                    </a>
+                </div>
+                <div class="tmall_a">
+                    <a href="#">
+                        天猫专卖
+                    </a>
+                </div>
+                <div class="evaluate">
+                    <span class="display">
+                        月成交<span class="highlight1">9笔</span>
+                    </span>
+                    <span class="display">
+                        评价<span class="highlight2">1</span>
+                    </span>
+                    <img src="../img/site/wangwang.png" alt="旺旺">
+                </div>
+            </div>
+            <div class="product" price="239.25">
+                <div class="picture">
+                    <img src="http://tmall.how2j.cn/productSingle_middle/6860.jpg" alt="商务">
+                </div>
+                <div class="rmb">
+                    ￥239.25
+                </div>
+                <div class="product_a">
+                    <a href="#">
+                        男士手拿包商务软牛皮包大容量手包多功能双拉链手抓包钱包男包
+                    </a>
+                </div>
+                <div class="tmall_a">
+                    <a href="#">
+                        天猫专卖
+                    </a>
+                </div>
+                <div class="evaluate">
+                    <span class="display">
+                        月成交<span class="highlight1">50笔</span>
+                    </span>
+                    <span class="display">
+                        评价<span class="highlight2">25</span>
+                    </span>
+                    <img src="../img/site/wangwang.png" alt="旺旺">
+                </div>
+            </div>
+            <div class="product" price="243.45">
+                <div class="picture">
+                    <img src="http://tmall.how2j.cn/productSingle_middle/6761.jpg" alt="路易斯">
+                </div>
+                <div class="rmb">
+                    ￥243.45
+                </div>
+                <div class="product_a">
+                    <a href="#">
+                        路易斯库克男包信封包男士手包大容量软皮鳄鱼纹手拿包手抓包真皮
+                    </a>
+                </div>
+                <div class="tmall_a">
+                    <a href="#">
+                        天猫专卖
+                    </a>
+                </div>
+                <div class="evaluate">
+                    <span class="display">
+                        月成交<span class="highlight1">200笔</span>
+                    </span>
+                    <span class="display">
+                        评价<span class="highlight2">70</span>
+                    </span>
+                    <img src="../img/site/wangwang.png" alt="旺旺">
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- 排序 -->
-    <div id="price_order">
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <a href="#">
-                            综合
-                            <span class="glyphicon glyphicon-arrow-down"></span>
-                        </a>
-                    </td>
-                    <td>
-                        <a href="#">
-                            人气
-                            <span class="glyphicon glyphicon-arrow-down"></span>
-                        </a>
-                    </td>
-                    <td>
-                        <a href="#">
-                            新品
-                            <span class="glyphicon glyphicon-arrow-down"></span>
-                        </a>
-                    </td>
-                    <td>
-                        <a href="#">
-                            销量
-                            <span class="glyphicon glyphicon-arrow-down"></span>
-                        </a>
-                    </td>
-                    <td>
-                        <a href="#">
-                            价格
-                            <span class="glyphicon glyphicon-resize-vertical"></span>
-                        </a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <!-- 价格 -->
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <input type="text" placeholder="请输入">
-                    </td>
-                    <td>-</td>
-                    <td>
-                        <input type="text" placeholder="请输入">
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    <iframe id="ifr_footer" name="ifr_footer" src="./public/footer.html" frameborder="0" width="100%" height="575px"></iframe>
+    <script src="../js/category.js"></script>
 </body>
 
 </html>

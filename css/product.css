@@ -213,15 +213,16 @@ a:hover {
   width: 790px;
   margin: 40px auto;
 }
-#pro_details #pro_head {
+#pro_details .pro_head {
   border: 1px solid #dedfdf;
   border-left-width: 0;
 }
-#pro_details #pro_head a:hover {
+#pro_details .pro_head span:hover {
   text-decoration: none;
   color: #c40000;
+  cursor: pointer;
 }
-#pro_details #pro_head .select {
+#pro_details .pro_head .select {
   position: relative;
   display: inline-block;
   width: 90px;
@@ -232,7 +233,7 @@ a:hover {
   text-align: center;
   line-height: 46px;
 }
-#pro_details #pro_head .select::before {
+#pro_details .pro_head .select::before {
   content: "";
   position: absolute;
   top: -1px;
@@ -242,7 +243,7 @@ a:hover {
   height: 0;
   border: 1px solid #b00000;
 }
-#pro_details #pro_head .select::after {
+#pro_details .pro_head .select::after {
   content: "";
   position: absolute;
   top: -1px;
@@ -253,12 +254,12 @@ a:hover {
   border: 5px solid;
   border-color: #b00000 transparent transparent;
 }
-#pro_details #pro_head .total_eva {
+#pro_details .pro_head .total_eva {
   padding: 0px 20px;
   border-right: 1px dotted #d2d2d2;
   color: #333;
 }
-#pro_details #pro_head .total_eva .num {
+#pro_details .pro_head .total_eva .num {
   color: #3355b9;
 }
 #pro_details #pro_para {
@@ -281,4 +282,30 @@ a:hover {
   display: block;
   width: 790px;
   margin: 20px 0px;
+}
+#add_eva {
+  height: 1000px;
+}
+#add_eva #eva_context {
+  padding-top: 50px;
+}
+#add_eva #eva_context .eva_description {
+  width: 80%;
+  margin: 5px 20px;
+  color: #333;
+}
+#add_eva #eva_context .date {
+  margin: 5px 20px 15px;
+  color: #cccccc;
+}
+#add_eva #eva_context .user {
+  float: right;
+  width: 100px;
+  margin: 5px 20px;
+  padding: 10px 0px;
+  color: #404040;
+  text-align: left;
+}
+#add_eva #eva_context .user .anonymity {
+  color: #999999;
 }

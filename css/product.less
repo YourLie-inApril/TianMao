@@ -264,13 +264,14 @@ a:hover {
     width: 790px;
     margin: 40px auto;
 
-    #pro_head {
+    .pro_head {
         border: 1px solid #dedfdf;
         border-left-width: 0;
 
-        a:hover {
+        span:hover {
             text-decoration: none;
             color: #c40000;
+            cursor: pointer;
         }
 
         .select {
@@ -343,6 +344,39 @@ a:hover {
             display: block;
             width: 790px;
             margin: 20px 0px;
+        }
+    }
+}
+
+// 评价页
+#add_eva {
+    height: 1000px;
+
+    #eva_context {
+        padding-top: 50px;
+
+        .eva_description {
+            width: 80%;
+            margin: 5px 20px;
+            color: #333;
+        }
+
+        .date {
+            margin: 5px 20px 15px;
+            color: #cccccc;
+        }
+
+        .user {
+            float: right;
+            width: 100px;
+            margin: 5px 20px;
+            padding: 10px 0px;
+            color: #404040;
+            text-align: left;
+
+            .anonymity {
+                color: #999999;
+            }
         }
     }
 }

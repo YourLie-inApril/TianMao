@@ -309,3 +309,6 @@ a:hover {
 #add_eva #eva_context .user .anonymity {
   color: #999999;
 }
+#ifr_footer {
+  vertical-align: bottom;
+}

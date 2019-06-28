@@ -1,3 +1,9 @@
+// 设置图片显示
+$("#min_img img").mouseenter(function () { 
+    var big_image_url = $(this).attr("big_image_url");
+    $(".big_img").attr("src",big_image_url);
+});
+
 // 修改商品数量限制
 var stock = 66;
 var num = $("#number input").val();
